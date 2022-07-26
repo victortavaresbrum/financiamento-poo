@@ -1,0 +1,40 @@
+body {
+    display: block;
+    background-color: rgb(0, 34, 65);
+    color:white;
+    font: 11pt Tahoma;
+    text-align: center;
+    padding-top: 20px;
+}
+#title {
+    width: 100%;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    font-size: 15pt;
+}
+main input {
+    height: 25px;
+    color:rgb(34, 33, 33);
+    font-size: 15pt;
+}
+main input::placeholder{
+    font-size: 13pt;
+}
+
+#fit {
+    display: flex;
+    width:3000px;
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding:15px;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(8, 8, 99);
+}
